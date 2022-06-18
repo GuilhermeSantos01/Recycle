@@ -1,0 +1,36 @@
+body{
+text-align: center;
+}
+
+
+.table { 
+border-collapse: collapse; 
+margin: 25px 0; 
+font-size: 0.9em; 
+font-family: sans-serif; 
+min-width: 965px; 
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+}
+
+.gs {
+background-color: #009879; 
+color: #ffffff; 
+text-align: left; 
+border-bottom: 1px solid #dddddd;
+}
+
+td { 
+padding: 12px 15px; 
+}
+
+tr:nth-of-type(even) { 
+background-color: #f3f3f3; 
+}
+tr:last-of-type { 
+border-bottom: 2px solid #009879; 
+}
+tr.active-row { 
+font-weight: bold; 
+color: #009879; 
+}
