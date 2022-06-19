@@ -1,0 +1,235 @@
+
+@import url('https://fonts.googleapis.com/css2? família= Gentium+Plus & display=swap');
+*{
+				padding: 0;
+				margin: 0;
+				font: sans-serif;
+				}
+
+header{
+background-color: #24252a;
+box-shadow: 0px 3px 10px #464646;
+
+}
+.body-reciclar, .body-home, .body-login, .body-registro{
+	background-image: linear-gradient(to right top, #214121, #285428, #2e682f, #357c36, #3c913d, #3c923d, #3d923e, #3d933e, #377f38, #306b31, #2a582b, #244624);
+	background-repeat: no-repeat;
+	background-size: 1400px 1400px;
+
+}
+.body-index{
+	background-image: url(/Recycle/visual/imagens/fundo.png);
+	background-size: 1330px 665px;
+	background-repeat: no-repeat;
+}
+
+.nav-bar{
+				display: flex;
+				justify-content: space-between;
+				padding: 1.5rem 6rem;
+
+}
+
+.logo{
+				
+				display: flex;
+			 align-items: center;
+}
+
+.logo h1{
+      
+				color: #00ff00;
+}
+
+.nav-list{
+				
+				display: flex;
+				align-items: center;
+}
+
+.nav-list ul{
+				
+				display: flex;
+				justify-content: center;
+				list-style: none;
+}
+
+.nav-item{
+				margin: 15px;
+				
+}
+
+.nav-link{
+				
+				text-decoration: none;
+				font-size: 1.15rem;
+				color: #fff;
+}
+.login-button button{
+				border: none;
+				background-color: #006600;
+				padding: 10px 15px;
+				border-radius: 50%;
+                height: 50px;
+                
+}
+
+.login-button button a{
+				
+				text-decoration: none;
+				color: #fff;
+				font-weight: 600;
+				font-size: 1.1rem;
+                
+                
+}
+
+.mobile-menu-icon{
+				
+	display: none;
+				
+}
+
+.mobile-menu{
+				
+				display: none;
+}
+
+@media screen and (max-width: 600px){
+				.nav-bar{
+								padding: 1.5rem 4rem;
+				}
+				.nav-item{
+								
+								display: none;
+				}
+				
+				.login-button{
+								
+								display: none;
+				}
+			.mobile-menu-icon{
+							display: block;
+			}
+			.mobile-menu-icon button{
+							
+							background-color: transparent;
+							border: none;
+							cursor: pointer;				
+			}
+			
+			.mobile-menu ul{
+							
+							display: flex;
+							flex-direction: column;
+							text-align: center;
+							padding-bottom: 1rem;
+			}
+			
+				.mobile-menu .nav-item{
+								
+								display: block;
+								padding: 1.2rem;
+				}
+			
+			.mobile-menu .login-button{
+								display: block;
+								padding: 1rem 2rem;				
+			}
+			
+			.mobile-menu .login-button button{
+							width: 100%;
+			}
+			.open{
+							display: block;
+			}
+}
+
+.icon{
+				
+				width: 40px;
+				cursor: pointer;
+				float: right;
+				
+}
+
+.reci{
+				
+				width: 30px;
+				float: left;
+			
+} 
+.reciclar-content{
+	font-family: 'Nunito', sans-serif;
+	color: white;
+	width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.reciclar-titulo{
+display: flex;
+margin-top: 30px;
+margin-left: 430px;
+
+}
+
+.reciclar-inicio{
+display: flex;
+text-align: center;
+width: 50%;
+margin-left: 300px;
+margin-top: 20px;
+}
+
+.reciclar-separacao{
+display: flex;
+margin-top: 22px;
+margin-left: 350px;
+}
+
+.reciclar-separacao-inicio{
+display: flex;
+text-align: center;
+width: 50%;
+margin-left: 300px;
+margin-top: 9px;
+}
+
+.lixeiras{
+	display: flex;
+	border-radius: 10px;
+	width: 600px;
+	margin-left: 335px;
+    margin-top: 23px;
+}
+
+.reciclar-lavagem{
+	display: flex;
+	text-align: center;
+	margin-left: 350px;
+	margin-top: 40px;
+}
+.reciclar-lavagem-inicio{
+	display: flex;
+	text-align: center;
+	margin-left: 300px;
+	margin-top: 8px;
+}
+
+.reciclar-deposito{
+	display: flex;
+	text-align: center;
+	margin-left: 350px;
+	margin-top: 40px;
+}
+	
+.reciclar-deposito-inicio{
+	display: flex;
+	text-align: center;
+	width: 50%;
+	margin-left: 290px;
+	margin-top: 12px;
+}
+
+
