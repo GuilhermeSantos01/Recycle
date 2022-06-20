@@ -41,7 +41,7 @@
                     <li class="nav-item"><a href="feedback.php" class="nav-link">Fale conosco</a></li>	
             </ul>
             <div class="apoie-button">
-                <button><a href="#">Apoie-nos</a></button>
+                <button><a href="login.php">Apoie-nos</a></button>
             </div>
         </div>
     </header>
