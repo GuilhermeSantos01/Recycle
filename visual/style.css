@@ -445,3 +445,47 @@ margin-left: 80px;
     .body-feedback{
         background-image: url('/Recycle/visual/imagens/wallhaven-dg3lw3.jpg');
     }
+
+    .bem-vindo {
+        color: #b0e7b0;
+        font-family: 'Segoe UI', Helvetica, sans-serif;
+        text-align: center;
+        
+    }
+    
+    .cintroducao {
+        color: #b0e7b0;
+        font-family: 'Segoe UI', Helvetica, sans-serif;
+        text-align: center;
+    }
+    
+    .conteudo {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border: 5px solid #b0e7b0;
+        border-radius: 30px;
+        padding: 10px 10px 10px;
+    }
+    /* Inicio */
+    .body-inicio {
+        background-image: url('/Recycle/visual/imagens/wallhaven-nrp377.jpg');
+        animation: gradient 60s ease infinite;
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+    
+        50% {
+        background-position: 100% 50%;
+        }
+    
+        100% {
+        background-position: 0% 50%;
+        }
+    }
+    
+    
