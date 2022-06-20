@@ -35,11 +35,10 @@
         </nav>
         <div class="mobile-menu">
             <ul>
-                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Situação do lixo</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Aprenda a reciclar</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Quanto ganhar?</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Fale conosco</a></li>
+			<li class="nav-item"><a href="situacao.php" class="nav-link">Situação do lixo</a></li>
+                    <li class="nav-item"><a href="reciclar.php" class="nav-link">Aprenda a reciclar</a></li>
+                    <li class="nav-item"><a href="tabela.php" class="nav-link">Quanto ganhar?</a></li>
+                    <li class="nav-item"><a href="feedback.php" class="nav-link">Fale conosco</a></li>	
             </ul>
             <div class="apoie-button">
                 <button><a href="#">Apoie-nos</a></button>
