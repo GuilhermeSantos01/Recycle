@@ -12,6 +12,7 @@ if(!isset($_SESSION['sUsuario']) AND !isset($_SESSION['sSenha'])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="menu.css">
 </head>
 <body class="body-home">
 <header>
@@ -21,14 +22,14 @@ if(!isset($_SESSION['sUsuario']) AND !isset($_SESSION['sSenha'])){
 	</div>			
 			<div class="nav-list">
 							<ul>
-                            <li class="nav-item"><a href="inicio.php" class="nav-link">Início</a></li>	
-							<li class="nav-item"><a href="situacao.html" class="nav-link">Situação do lixo</a></li>	
-							<li class="nav-item"><a href="reciclar.php" class="nav-link">Aprenda a reciclar</a></li>	
-							<li class="nav-item"><a href="tabela.php" class="nav-link">Quanto ganhar?</a></li>	
-									<li class="nav-item"><a href="feedback.php" class="nav-link">Fale conosco</a></li>		
+							<li class="nav-item"><a href="inicio.php" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="situacao.php" class="nav-link">Situação do lixo</a></li>
+                    <li class="nav-item"><a href="reciclar.php" class="nav-link">Aprenda a reciclar</a></li>
+                    <li class="nav-item"><a href="tabela.php" class="nav-link">Quanto ganhar?</a></li>
+                    <li class="nav-item"><a href="feedback.php" class="nav-link">Fale conosco</a></li>		
 											
 		<div class="login-button">
-        <button><a href ="login.php">Apoie-nos</a></button>
+		<button><a href="login.php">Apoie-nos</a></button>
 		</ul>
 							</div>
 		<div class="mobile-menu-icon">						
