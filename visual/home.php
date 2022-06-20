@@ -39,15 +39,14 @@ if(!isset($_SESSION['sUsuario']) AND !isset($_SESSION['sSenha'])){
 					
 	<div class="mobile-menu">
 					<ul>
-					<li class="nav-item"><a href="inicio.html" class="nav-link">Início</a></li>	
-							<li class="nav-item"><a href="situacao.html" class="nav-link">Situação do lixo</a></li>	
-							<li class="nav-item"><a href="recicla.html" class="nav-link">Aprenda a reciclar</a></li>	
-								<li class="nav-item"><a href="ganho.html" class="nav-link">Quanto ganhar?</a></li>	
-									<li class="nav-item"><a href="interacao.html" class="nav-link">Fale conosco</a></li>	
+					<li class="nav-item"><a href="situacao.php" class="nav-link">Situação do lixo</a></li>
+                    <li class="nav-item"><a href="reciclar.php" class="nav-link">Aprenda a reciclar</a></li>
+                    <li class="nav-item"><a href="tabela.php" class="nav-link">Quanto ganhar?</a></li>
+                    <li class="nav-item"><a href="feedback.php" class="nav-link">Fale conosco</a></li>	
 									
 		</ul>
 					<div class="login-button">
-					<button><a href="apoie.html">Apoie-nos</a></button>
+					<button><a href="login.php">Apoie-nos</a></button>
 					
 	</div>
 	
