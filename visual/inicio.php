@@ -38,7 +38,7 @@
                     <li class="nav-item"><a href="tabela.php" class="nav-link">Quanto ganhar?</a></li>
                     <li class="nav-item"><a href="feedback.php" class="nav-link">Fale conosco</a></li>	
             <div class="apoie-button">
-                <button><a href="#">Apoie-nos</a></button>
+                <button><a href="login.php">Apoie-nos</a></button>
             </div>
         </div>
     </header>
